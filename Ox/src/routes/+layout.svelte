@@ -1,6 +1,8 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import '@picocss/pico';
+	import "@picocss/pico/css/pico.min.css";
 </script>
 
 <div class="app">
@@ -11,10 +13,9 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Footer</p>
 	</footer>
 </div>
-
 <style>
 	.app {
 		display: flex;
