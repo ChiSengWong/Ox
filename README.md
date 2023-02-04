@@ -7,3 +7,9 @@
 # Tech used:
 - Frontend: Typescript/Swelte with SvelteKit as metaframework, Pico CSS for styling.
 - Backend: Firebase (TODO)
+
+
+## Potential Error when setting up:
+- Try syncing dependencies version:
+  - npm version: v8.19.2
+  - node version: v18.12.1
